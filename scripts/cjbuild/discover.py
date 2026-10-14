@@ -21,7 +21,7 @@ def num_max(value):
 
 def _looks_like_code(key):
     parts = [p.strip() for p in str(key).split("-") if p.strip()]
-    return any(re.fullmatch(r"[A-Z]{0,3}\d{4,}(\s?\d+)?", p) for p in parts)
+    return any(re.fullmatch(r"[A-Z]{1,3}\d{3,}(\s?\d+)?|\d{5,}", p) for p in parts)
 
 
 def _norm_name(name):
