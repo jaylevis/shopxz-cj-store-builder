@@ -1,0 +1,46 @@
+{
+  "schema": "CJBUILD_PROFILE_v1",
+  "market": {"country": "JP", "language": "ja", "currency": "JPY"},
+  "store": {"name": "", "manager_url": "", "public_url": "", "session": ""},
+  "catalog": {
+    "categories": [],
+    "keywords": [],
+    "target_count": 40,
+    "candidate_multiplier": 3,
+    "max_pages_per_category": 3,
+    "min_listed_num": 5,
+    "price_usd_min": 2.0,
+    "price_usd_max": 40.0,
+    "max_variants": 12,
+    "max_weight_g": 1500,
+    "min_images": 3,
+    "min_stock": 50,
+    "prefer_jp_warehouse": true,
+    "excluded_category_keywords": []
+  },
+  "shipping": {
+    "from_cn": {"prefer_names": ["CJPacket Eub", "CJPacket Ordinary", "CJPacket Fast Ordinary", "CJPacket Sensitive"], "max_transit_days": 12},
+    "from_jp": {"prefer_names": ["JP-Sagawa Express"], "max_transit_days": 5},
+    "handling_business_days": [2, 4]
+  },
+  "pricing": {
+    "fx_usd_jpy": null,
+    "fx_source": "",
+    "markup": 1.8,
+    "handling_fee_usd": 0.0,
+    "round_step": 100,
+    "ending": 90,
+    "min_price_jpy": 1490,
+    "min_margin": 0.45,
+    "stock_cap": 50
+  },
+  "content": {
+    "brand_name": "",
+    "tone": "丁寧で簡潔な日本語。誇張や根拠のない効能、在庫・期限の煽り文句は書かない。",
+    "handle_style": "english-slug",
+    "image_mode": "ai-edit",
+    "image_style": "clean white studio background, soft natural light, product unchanged, no text, no watermark, Japanese e-commerce catalog style",
+    "ai_images_per_product": 2,
+    "max_images_per_product": 6
+  }
+}

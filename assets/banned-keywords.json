@@ -1,0 +1,28 @@
+{
+  "schema": "CJBUILD_BANNED_v1",
+  "brands": [
+    "nike", "adidas", "puma", "new balance", "converse", "vans", "supreme", "bape", "a bathing ape", "stussy",
+    "the north face", "north face", "patagonia", "champion", "carhartt", "dickies", "levi's", "levis",
+    "gucci", "louis vuitton", "lv", "chanel", "dior", "prada", "hermes", "hermès", "balenciaga", "burberry",
+    "fendi", "versace", "coach", "michael kors", "tiffany", "cartier", "rolex", "omega", "casio", "seiko",
+    "swarovski", "pandora", "chrome hearts", "off-white", "off white", "fear of god", "essentials", "yeezy",
+    "jordan", "uniqlo", "zara", "h&m", "shein", "lululemon", "apple", "iphone", "airpods", "samsung",
+    "sony", "nintendo", "playstation", "xbox", "dyson", "disney", "marvel", "pokemon", "pokémon", "pikachu",
+    "sanrio", "hello kitty", "kuromi", "cinnamoroll", "snoopy", "peanuts", "miffy", "ghibli", "totoro",
+    "one piece", "naruto", "dragon ball", "demon slayer", "kimetsu", "jujutsu", "spy x family", "chiikawa",
+    "barbie", "lego", "harry potter", "star wars", "minecraft", "roblox", "nba", "mlb", "fifa"
+  ],
+  "prohibited": [
+    "replica", "counterfeit", "1:1", "knockoff", "inspired by", "e-cigarette", "vape", "cigarette", "lighter",
+    "knife", "dagger", "sword", "crossbow", "taser", "pepper spray", "gun", "ammunition", "laser pointer",
+    "medicine", "pharmaceutical", "antibiotic", "weight loss pill", "slimming pill", "supplement", "capsule",
+    "sex toy", "vibrator", "dildo", "adult toy", "hookah", "magnet ball", "drone with camera", "cctv", "spy camera"
+  ],
+  "suppliers": [
+    "cj", "cjdropshipping", "aliexpress", "alibaba", "1688", "taobao", "temu", "shein", "dropship", "dropshipping"
+  ],
+  "excluded_categories": [
+    "health care", "medical", "supplement", "cosmetic", "makeup", "skin care", "skincare", "perfume",
+    "sex", "adult", "e-cig", "vape", "knives", "weapons", "tattoo", "contact lens", "baby food", "pet food"
+  ]
+}
